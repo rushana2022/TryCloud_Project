@@ -13,7 +13,7 @@ import org.openqa.selenium.TakesScreenshot;
 import java.time.Duration;
 
 /*
-In this class we will be able to create "pre" and "post" condition
+In this class we will be able to create "pre" and "post" conditions
 for ALL the SCENARIOS and even STEPS.
  */
 public class Hooks {
@@ -35,7 +35,7 @@ public class Hooks {
     /*
     @After will be executed automatically after EVERY scenario in the project.
      */
-    @After
+    //@After
     public void teardownMethod(Scenario scenario){
 
         if (scenario.isFailed()) {

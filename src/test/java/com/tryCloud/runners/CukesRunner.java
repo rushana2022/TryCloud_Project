@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
         features = "src/test/resources/features",
-        glue = "com/project_name/step_definitions",
-        dryRun = true,
+        glue = "com/tryCloud/step_definitions",
+        dryRun = false,
         tags = "",
         publish = true //generating a report with public link
 )
